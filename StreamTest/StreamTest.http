@@ -1,0 +1,11 @@
+@StreamTest_HostAddress = http://localhost:5241
+
+GET {{StreamTest_HostAddress}}/todos/
+Accept: application/json
+
+###
+
+GET {{StreamTest_HostAddress}}/todos/1
+Accept: application/json
+
+###
