@@ -8,12 +8,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="QuestPDF" Version="2025.5.1" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <None Remove="own-logo.png" />
-      <Content Include="own-logo.png" />
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
     </ItemGroup>
 
 </Project>

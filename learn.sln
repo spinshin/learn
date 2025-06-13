@@ -14,6 +14,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PdfTest", "PdfTest\PdfTest.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuartzTest", "QuartzTest\QuartzTest.csproj", "{10514482-9740-4501-95E2-01D3D20D77FE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpandoObject", "ExpandoObject\ExpandoObject.csproj", "{310FAF05-8849-4DC8-BEF7-C5EDE519E3C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncAwait", "AsyncAwait\AsyncAwait.csproj", "{767B6799-58AF-4525-8664-2B5B0C3D00CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SynchronizationContextLearn", "SynchronizationContextLearn\SynchronizationContextLearn.csproj", "{A0100E35-B15C-43D0-A7A0-7C5E1ADE5A1D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,5 +54,17 @@ Global
 		{10514482-9740-4501-95E2-01D3D20D77FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10514482-9740-4501-95E2-01D3D20D77FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{10514482-9740-4501-95E2-01D3D20D77FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{310FAF05-8849-4DC8-BEF7-C5EDE519E3C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{310FAF05-8849-4DC8-BEF7-C5EDE519E3C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{310FAF05-8849-4DC8-BEF7-C5EDE519E3C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{310FAF05-8849-4DC8-BEF7-C5EDE519E3C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{767B6799-58AF-4525-8664-2B5B0C3D00CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{767B6799-58AF-4525-8664-2B5B0C3D00CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{767B6799-58AF-4525-8664-2B5B0C3D00CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{767B6799-58AF-4525-8664-2B5B0C3D00CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0100E35-B15C-43D0-A7A0-7C5E1ADE5A1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0100E35-B15C-43D0-A7A0-7C5E1ADE5A1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0100E35-B15C-43D0-A7A0-7C5E1ADE5A1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0100E35-B15C-43D0-A7A0-7C5E1ADE5A1D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
